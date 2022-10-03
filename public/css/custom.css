@@ -1,0 +1,16 @@
+.logoo{
+    width: 200px;
+    height: 200px;
+}
+
+.cargo-total > a {
+    width: 100%;
+}
+
+ul.no-dot{
+    list-style-type: none;
+}
+
+.up{
+    z-index: 2;
+}

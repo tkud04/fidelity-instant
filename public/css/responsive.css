@@ -1,0 +1,781 @@
+@media (max-width: 1200px) {
+.widgets > .row > div:first-child {margin-top: 0;}
+.widgets > .row > div {float: left;margin-top: 30px;}
+.heading > p,
+.container .heading > p {padding: 0 220px;}
+.fancy-service:hover .service-detail .theme-btn {padding: 16px 24px;}
+.calculate-shipping, .shippment-guide {padding: 60px;}
+.shippment-guide > a {margin-top: 33px;}
+.calculate-shipping-form form .text-field {padding-left: 20px;padding-right: 9px;}
+.shipment-visibility input {width: 88%;}
+.bottom-line ul > li {margin: 0 10px;}
+.track-form {left: 0;width: 100%;}
+.track-form > form label {width: 65%;}
+#about-shipment .shippment-guide {padding: 0;}
+.packages-info {bottom: -70%;padding: 35px 30px;width: 95%;}
+.contact-form > form button {padding: 17px 30px;}
+.news-detail {padding: 50px 30px;}
+.fun-fact {padding: 37px 20px;}
+.fun-fact-slider {width: 66.2%;}
+.fun-fact > span {font-size: 30px;}
+.request-quote-body > form label .text-field {width: 85%;}
+.request-quote-body > form > .row > div {width: 100%;}
+.shipment-visibility .heading2 > h3 {font-size: 20px;}
+.request-free-quote > .heading2 {padding: 32px;}
+.request-quote-body {padding: 45px 25px;}
+.select-box .select2-container {width: 100% !important;}
+.plan:before {
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-top: 24px solid #1f425d;
+}
+.cities-detail > h4 > a {padding: 15px;}
+.recent-news-thumb {width: 39%;}
+.recent-news-desc {padding: 10px 20px 10px 140px;}
+.recent-news-desc > h2 {line-height: 18px;margin-bottom: 0;margin-top: 5px;}
+.banner-detail1 {padding: 35px;}
+#package-details-tabs .our-packages {margin-bottom: 0;}
+.quick-contact > ul > li:first-child {margin-right: 40px;}
+.service-detail > span {margin-top: 30px;}
+.service-detail > i > img {width: 40px;}
+.service-detail h3 {font-size: 19px;}
+header.sticky .quick-contact > ul > li:last-child {padding-left: 0;}
+.quick-contact > ul > li > a {padding: 13px 25px;}
+header.sticky .cargo-time {margin: 10px 0;}
+header.sticky .extra-links {margin: 10px 0 10px 25px;}
+header.sticky .connect-us {margin: 10px 0;}
+.shippment-guide > ul {margin-top: 6px;}
+.widget.blue1 {padding: 40px 20px}
+.track-form .heading2 {padding-right: 30px;width: 35%;}
+.track-form .heading2 > h3 {font-size: 15px;}
+.members-area {padding: 0 50px;}
+.member {margin-right: 0;width: 31%;}
+.member.clicked {width: 31%;}
+.member.clicked .member-detail {left: 0;}
+.reply {padding-left: 190px;}
+.reply > img {max-width: 33%;}
+.gallery1 .row > div {float: left;width: 33.334%;}
+.recent-post-widget .post-meta2 > li {padding: 0 10px;}
+.safe-affordable-cargo > ul {margin-top: 30px;}
+.region2 .modal-content {padding: 30px 0;}
+.region2 .modal-body {padding: 0;}
+.modal-body .close {right: 20px;top: 20px;}
+#region .modal-body {padding: 30px;}
+#region .modal-body .close {top: -10px;}
+#submission-message .modal-dialog {margin: 0;padding: 10px;width: 100%}
+.modern-services-carousel.style2 .owl-nav{left:-250px}
+/*===== New Style 25-5-16 =====*/
+.transport-tabs-selector {padding: 80px 64px;}
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+header,
+header.stick {display: none !important;}
+.theme-layout {padding-top: 0 !important;}
+.theme-layout.boxed {float: left;width: 100%;}
+.responsive-header {display: block;}
+.container,
+.block .container, 
+.bottom-line .container {padding: 0 15px;}
+.main-slider {margin-top: 0;}
+.heading > p,
+.container .heading > p{padding: 0 100px;}
+.cargo-shipment .col-md-6.layer, 
+.cargo-shipment .col-md-6.darkblue {float: left;width: 100%;}
+.padding8 {padding: 0;}
+.calculate-shipping-form > form > .row > div,
+.cargo-size > .row > div,
+.services1 > .row > div,
+.company-benefits > .row > div,
+.padding8 > .row > div {float: left;width: 50%;}
+.select-box .select2.select2-container {width: 100% !important;}
+.simple-services1 {margin-top: 30px;}
+.services1 > .row > div:last-child .simple-services1:before, 
+.services1 > .row > div:last-child .simple-services1:after, 
+.services1 > .row > div:last-child .service-box1:before {display: block;}
+.services1 > .row > div:nth-child(1) .simple-services1, 
+.services1 > .row > div:nth-child(2) .simple-services1 {margin-top: 0;}
+.calculate-shipping, 
+.shippment-guide {padding: 60px;min-height: initial;}
+.company-detail {
+    float: left;
+    left: 0;
+    position: relative;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+
+    width: 100%;
+}
+.company-intro {margin-bottom: 0;}
+.blog-post-carousel,
+footer .widget {margin-bottom: 30px;}
+.widget.blue1:before {height: 200%;left: -20%;top: -30px;width: 140%;}
+footer > section > .container > .row > div > .row > div.col-md-4 {float: left;width: 100%;}
+.post-thumb {width: 50%;}
+.post-info {padding: 60px 40px;width: 50%;}
+.shipment-visibility:after {background-size: cover;background-position: center;}
+.overlape3 {margin-top: 0;}
+.track-form > form label {margin-right: 0;width: 100%;}
+.track-form > form .theme-btn {margin-top: 10px;padding: 17px 30px;}
+.top-margin > .row > div {float: left;width: 50%;}
+.packages-info {float: left;padding: 35px 40px;position: relative;width: 100%;}
+.cargo-numbers {float: left;margin-bottom: 30px;width: 100%;}
+.contact-form > form > .row > div {float: left;width: 50%;}
+.contact-form > form > .row > div.col-md-7 {margin-left: -49%;}
+.terms-services {margin-top: 30px;}
+.contact-form > form > .row > div.col-md-5 {float: right;margin-top: -4%;}
+.company-benifits2 {margin-bottom: 50px;}
+.project-detail {padding: 30px;}
+.fun-fact-slider {float: left;position: relative;width: 100%;}
+.fun-fact-slider > .row > div {float: left;width: 33.334%;}
+.request-quote-body {padding: 45px;}
+.request-quote-body > form > .row > div {float: left;width: 50%;}
+.request-quote-body > form > .row > div.col-md-12 {width: 100%;}
+.request-free-quote .heading2 {padding: 45px 45px 30px 57px;}
+.post-info {padding: 40px;}
+.region {margin-top: 30px;}
+.select-plan {padding: 0;}
+.chart-detail > .row > div {float: left;width: 50%;}
+.gallery5-carousel {padding: 0 40px;}
+.gallery5-carousel-controls > .row > div,
+.gallery-photos .row > div {float: left;width: 33.334%;}
+.gallery6-page > .row > div {width: 100%;}
+.gallery6 > .row > div,
+.our-packages2 > .row > div {float: left;width: 50%;}
+.gallery6 > .row > div.col-md-12,
+.blog-list-main > .row > div {width: 100%;}
+.blog-detail-main > .row > div {width: 100%;}
+.recent-news-thumb {width: 39%;}
+.recent-news-desc {padding: 30px 30px 30px 345px;}
+.banner-detail1 {padding: 70px;}
+.packages-details-main > .row > div {width: 100%;}
+.get-quote-form2 > form > .row > div,
+.get-quote-form > form > .row > div {float: left;width: 100%;}
+.get-quote-form2 > form > .row > div.col-md-6,
+.get-quote-form > form > .row > div.col-md-6 {width: 50%;}
+.company-projects-list > ul li:first-child:nth-last-child(4), 
+.company-projects-list > ul li:first-child:nth-last-child(4) ~ li, 
+.company-projects-list > ul li:first-child.active:nth-last-child(4), 
+.company-projects-list > ul li:nth-last-child(4) ~ li.active {width: 50% !important;}
+.responsive-header .quick-contact > ul > li:last-child {padding-left: 60px;margin: 0;}
+.quick-contact > ul > li:first-child {margin-right: 0px;}
+.cargo-time {margin: 10px 0;}
+.connect-us {margin: 10px 0;}
+.quick-contact li > img {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.responsive-quick-contact .quick-contact > ul {margin: 15px 0;}
+.responsive-nav {padding: 15px 0;}
+.half-parallax .parallax {height: 100%;}
+.bottom-line ul {display: inline-block;float: none;}
+.bottom-line {text-align: center;}
+.bottom-line span {margin: 20px 0;}
+.bottom-line ul > li > a {padding: 20px 0;}
+.slide-icon:before {font-size: 9px;left: 10px;}
+.members-area {float: left;width: 100%;}
+.member {width: 100%;}
+.member.clicked {width: 100%;}
+.member-thumb {width: 100%;}
+.member-thumb > img {width: 100%;}
+.member.clicked .member-detail {display: block;height: 100%;}
+.information .contact-form {margin-top: 30px;}
+.safe-affordable-cargo > ul {margin-top: 30px;}
+.main-carousel-cap > h1 {font-size: 40px;}
+.main-carousel-cap > h5 {padding: 16px 30px;}
+.plan.active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.about-shipment-thumb {margin-top: 30px;}
+.gallery1 .row > div {float: left;width: 50%;}
+.our-packages2 .our-packages {margin-bottom: 0;min-height: 508px;}
+.project-detail-img > strong {bottom: auto;right: 30px;top: 245px;}
+.project-info {float: left;height: auto;position: relative;width: 100%;}
+.project-overview-detail {margin-top: 30px;}
+.booking-form > form > .row > div{float:left;width:100%}
+.modal-dialog {
+    padding: 10px;
+    position: relative;
+    width: 100% !important;
+}
+.region2 .modal-dialog ,
+.region2 .modal-dialog1,
+#calculate-form-popup .modal-dialog2 {width: 95%;}
+.calculate-form-popup .cargo-shipment{width:100%}
+.column-title{margin-bottom:40px}
+.modern-services-carousel.style2 .owl-nav{bottom: auto;height: 0;left: 0;margin: 0;top: 50%;width: 100%}
+.modern-services-carousel.style2 .owl-nav > div {background:#efefef;margin-top:-20px}
+.request-free-quote.overlape2{margin:0}
+.view-all-vertical {bottom: 0;float: left;left: 0;margin-top: 30px;position: relative;right: auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+/*===== New Style 25-5-16 =====*/
+.transport-tabs-selector, 
+.transport-tabs-content {width: 100%;}
+.transport-tabs-selector > ul > li {width: 25%;}
+.transport-tabs-selector {padding: 80px;}
+/*===== New Style 31-5-16 =====*/
+.zero-counters > .row > div,
+.zero-counters3 > .row > div,
+.zero-counters4 > .row > div {
+    float: left;
+    margin-bottom: 0;
+    width: 50%;
+}
+.zero-counters .counter-styles::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: -15px;
+    width: 100%;
+}
+.zero-counters3 > .row,
+.zero-counters4 > .row {margin-top: -30px;}
+.zero-counters3 .counter-styles,
+.zero-counters4 .counter-styles {margin-top: 30px;}
+.zero-counters4 .counter-styles {padding-top: 20px;}
+.zero-counters4 .counter-styles > i {
+    left: auto;
+    position: static;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
+.progressbars-style {margin-bottom: 50px;}
+.messagebox {padding: 30px;}
+.message-title > h3 {line-height: initial;padding: 27px;}
+.messagebox-style2 p {padding: 30px;}
+.messagebox-style3 .messagebox {padding: 30px 30px 30px 50px;}
+.news-box.news-list > .news-thumb {margin-right: 30px;}
+.news-box.news-list .news-detail {margin-top: 30px;padding-bottom: 30px;padding-right: 30px;}
+.search-bar > form input[type="text"] {width: 71.6%;}
+.error-page::before {left: -120px;}
+.error-page::after {right: -140px;}
+/*===== New Demo 4-6-16 =====*/
+.progress-chartsec {margin-bottom: 90px;}
+.teamchoose-sec .top-margin {margin-bottom: 30px;}
+}
+
+
+@media (max-width: 767px) {
+header,
+header.stick {display: none !important;}
+.theme-layout {padding-top: 0 !important;}
+.theme-layout.boxed {float: left;width: 100%;}
+.responsive-header {display: block;}
+.container,
+.block .container, 
+.bottom-line .container {padding: 0 15px;}
+.main-slider {margin-top: 0;}
+.heading > p,
+.container .heading > p {padding: 0 50px;}
+.padding8 {padding: 0;}
+.services1 > .row > div,
+.company-benefits > .row > div,
+.padding8 > .row > div,
+.cargo-size > .row > div  {float: left;width: 50%;}
+.cargo-shipment .col-md-6.layer,
+.cargo-shipment .col-md-6.darkblue {float: left;width: 100%;padding:0}
+.calculate-shipping, 
+.shippment-guide {padding: 60px;min-height: initial;}
+.calculate-shipping-form > form > .row > div {float: left;width: 50%;}
+.select-box .select2-container {width: 100% !important;}
+.simple-services1 {margin-top: 30px;}
+.services1 > .row > div:nth-child(1) .simple-services1, 
+.services1 > .row > div:nth-child(2) .simple-services1 {margin-top: 0;}
+.company-detail {
+    float: left;
+    left: 0;
+    position: relative;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+    width: 100%;
+}
+.company-intro {margin-bottom: 0;}
+.blog-post-carousel,
+footer .widget {margin-bottom: 30px;}
+.widget.blue1:before{height: 100%;left: 0;top: 0;width: 100%}
+footer > section > .container > .row > div > .row > div.col-md-4 {float: left;width: 100%;}
+.post-thumb {width: 100%;}
+.post-info {padding: 65px 40px;width: 100%;}
+.bottom-line ul > li > a {padding: 10px 0;}
+.shipment-visibility:after {background-size: cover;background-position: center;}
+.packages-info {
+    padding: 35px 20px 20px;
+    bottom: 10px;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.packages-info:before{display:none;}
+.contact-form > form > .row > div.col-md-7 {margin-left: -49%;}
+.contact-form > form > .row > div.col-md-5 {float: right;margin-top: -4%;}
+.cargo-numbers {float: left;margin-bottom: 30px;width: 100%;}
+.contact-form > form > .row > div {float: left;width: 50%;}
+.company-benifits2 {margin-bottom: 50px;}
+.overlape3 {margin-top: 0;}
+.track-form {
+    border-top: 0 none;
+    padding: 30px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+    border-radius:0;
+}
+.track-form > form label {margin-right: 0;width: 100%;}
+.track-form > form .theme-btn {margin-top: 10px;}
+.track-form > form {margin-top: 30px;width: 100%;}
+.track-form .heading2 {width: 100%;}
+.our-packages {margin-bottom: 30px;}
+.member,
+.member.clicked {width: 100%;}
+.fun-fact-slider {float: left;position: relative;width: 100%;}
+.fun-fact-slider > .row > div {float: left;margin-bottom: 1px;width: 50%;}
+.request-quote-body > form > .row > div,
+.select-plan > .row > div {float: left;width: 50%;}
+.request-quote-body > form > .row > div.col-md-12 {width: 100%;}
+.select-plan {padding: 0;}
+.region {margin-top: 30px;}
+.services-page > .row > div,
+.our-packages2 > .row > div,
+.team-page > .row > div {float: left;width: 50%;}
+.chart-detail > .row > div {float: left;width: 100%;}
+#services-detail-tabs .nav {margin-top: -1px;position: relative;}
+#services-detail-tabs .nav > li {margin-top: 1px;text-align: center;width: 50%;}
+#services-detail-tabs {padding:10px;}
+.gallery5-carousel {padding: 0;}
+.gallery5-carousel-controls > .row > div {float: left;width: 33.334%;}
+.gallery-photos > .row > div {float: left;width: 33.334%;}
+.recent-news-desc {padding: 30px 30px 30px 270px;}
+.banner-detail1 {padding: 55px;}
+.packages-info:before{display:none}
+.packages-info > a {margin-top: 20px;}
+.packages-info .nav {
+    bottom: -10px;
+    left: 50%;
+    position: relative;
+
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.get-quote-form2 > form > .row > div,
+.get-quote-form > form > .row > div {float: left;width: 100%;}
+.get-quote-form2 > form > .row > div.col-md-6,
+.get-quote-form > form > .row > div.col-md-6 {width: 50%;}
+.company-projects-list > ul li:first-child:nth-last-child(4), 
+.company-projects-list > ul li:first-child:nth-last-child(4) ~ li, 
+.company-projects-list > ul li:first-child.active:nth-last-child(4), 
+.company-projects-list > ul li:nth-last-child(4) ~ li.active {width: 50% !important;}
+.project-detail {padding: 30px;}
+.quick-contact > ul > li:first-child {margin-right: 0px;}
+.cargo-time {margin: 10px 0;}
+.connect-us {margin: 10px 0;}
+.quick-contact li > img {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.responsive-quick-contact .quick-contact > ul {margin: 15px 0;}
+.responsive-nav {padding: 15px 0;}
+.half-parallax .parallax {height: 100%;}
+.bottom-line ul {display: inline-block;float: none;}
+.bottom-line ul > li{float:none;display:inline-block;}
+.bottom-line {text-align: center;}
+.bottom-line span {margin: 20px 0;}
+.bottom-line ul > li > a {padding: 20px 0;}
+.padding8 .fancy-service {margin-top: 10px;}
+.padding8 {margin-top: -10px;}
+.responsive-top-sec {opacity: 0;position: absolute;top: -100%;visibility: hidden;}
+.responsive-top-sec.active {opacity: 1;top: 0;visibility: visible;}
+.top-sec-btn {display: inline-block;}
+.slide-icon:before {font-size: 7px;left: 10px;}
+.members-area {float: left;margin-top: -10px;width: 100%;}
+.member {width: 100%;}
+.member.clicked {width: 100%;}
+.member-thumb {width: 100%;}
+.member-thumb > img {width: 100%;}
+.member.clicked .member-detail {display: block;height: 100%;}
+.information .contact-form {margin-top: 30px;}
+.safe-affordable-cargo > ul {margin-top: 30px;}
+.main-carousel-cap {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    float: left;
+    padding: 30px;
+    position: relative;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.main-carousel-cap img {width: 50%;}
+.main-carousel-cap > h1 {font-size: 35px;}
+.main-carousel-cap > h5 {font-size: 15px;padding: 16px 25px;}
+.plan.active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.loc-thumb.post-thumb,
+.about-shipment-thumb {margin-top: 30px;}
+.comment-info > i {width: 100%;}
+.comment {padding-left: 0;padding-top: 230px;}
+.comment > img {
+    left: 50%;
+    top: 25px;
+
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.comment-detail {padding: 30px;text-align: center;}
+.comment-info > h6 {margin-right: 0;width: 100%;}
+.comment-info > a {display: inline-block;float: none;margin-top: 10px;}
+.reply > img {max-width: 70%;}
+.comment-main ul ul {padding-left: 0;}
+.comment-main ul ul li {margin-top: 30px;}
+.comment-main ul ul li::before {
+    border-bottom: 10px solid #f1f1f1;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: -7px;
+
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.gallery1 .row > div {float: left;width: 50%;}
+.gallery6 > .row > div {float: left;width: 100%;}
+.gallery6 > .row > div.col-md-6 {width: 50%;}
+.our-packages2 .our-packages {margin-bottom: 0;min-height: 508px;}
+.project-detail-img > strong {bottom: auto;right: 30px;top: 245px;}
+.project-info {float: left;height: auto;position: relative;width: 100%;}
+.project-overview-detail {margin-top: 30px;}
+.simple-services1:before,.simple-services1:after,.service-box1:before{display:none}
+.post-meta2 > li {padding: 5px 0;width: 100%}
+.post-meta2 > li:before{display:none}
+.booking-form > form > .row > div{float:left;width:100%}
+.packages-info > .nav-tabs > li {display: inline-block;float: none}
+.packages-info > .nav-tabs {text-align: center}
+.region2 .modal-dialog1,
+#calculate-form-popup .modal-dialog2 {width: 95%;}
+#calculate-form-popup .modal-body2 {padding: 60px 40px;}
+.column-title{margin-bottom:40px}
+.modern-services-carousel.style2 .owl-nav{bottom: auto;height: 0;left: 0;margin: 0;top: 50%;width: 100%}
+.modern-services-carousel.style2 .owl-nav > div {background:#efefef;margin-top:-20px}
+.request-free-quote.overlape2{margin:0}
+.view-all-vertical {bottom: 0;float: left;left: 0;margin-top: 30px;position: relative;right: auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+/*===== New Style 25-5-16 =====*/
+.transport-tabs-selector, 
+.transport-tabs-content {width: 100%;}
+.transport-tabs-selector > ul > li {width: 33.334%;}
+.transport-tabs-selector {padding: 80px;}
+/*===== New Style 31-5-16 =====*/
+.zero-counters > .row > div,
+.zero-counters3 > .row > div,
+.zero-counters4 > .row > div {
+    float: left;
+    width: 50%;
+}
+.zero-counters .counter-styles::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: -15px;
+    width: 100%;
+}
+.zero-counters3 > .row,
+.zero-counters4 > .row {margin-top: -30px;}
+.zero-counters3 .counter-styles,
+.zero-counters4 .counter-styles {margin-top: 30px;}
+.zero-counters4 .counter-styles {padding-top: 20px;}
+.zero-counters4 .counter-styles > i {
+    left: auto;
+    position: static;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
+.progressbars-style {margin-bottom: 50px;}
+.messagebox {padding: 30px;}
+.message-title > h3 {line-height: initial;padding: 27px;}
+.messagebox-style2 p {padding: 30px;}
+.messagebox-style3 .messagebox {padding: 30px 30px 30px 50px;}
+.news-box.news-list > .news-thumb {margin-right: 30px;}
+.news-box.news-list .news-detail {margin-top: 30px;padding-bottom: 30px;padding-right: 30px;}
+.search-bar > form input[type="text"] {width: 71.6%;}
+.error-page::before,
+.error-page::after {display: none;}
+.error-page .notfound-content > h3 {font-size: 200px;}
+.error-page .notfound-content > h3 img {max-width: 150px;}
+.error-page .notfound-content > strong {font-size: 28px;}
+/*===== New Demo 4-6-16 =====*/
+.progress-chartsec {margin-bottom: 90px;}
+.teamchoose-sec .top-margin {margin-bottom: 30px;}
+}
+
+
+@media (max-width: 480px)  {
+.theme-layout {padding-top: 0 !important;}
+.responsive-quick-contact .quick-contact > ul > li {width: 100%;margin: 10px 0;}
+.responsive-top-bar .cargo-time {float: left;width: 100%;}
+.responsive-top-bar {text-align: center;}
+.responsive-top-bar .connect-us {width: 100%;}
+.responsive-top-bar .connect-us > ul {display: inline-block;float: none;}
+.responsive-logo .logo img {margin-top: 0;max-width: 140px;}
+.responsive-logo .logo span {font-size: 16px;}
+.gallery1 > .row > div {width: 100%;}
+.heading > p,
+.container .heading > p {padding: 0;}
+.heading > h2 {font-size:28px;}
+.services1 > .row > div, 
+.company-benefits > .row > div, 
+.padding8 > .row > div {width: 100%;}
+.heading8 > h3 {font-size: 24px}
+.calculate-shipping-form > form > .row > div {width: 100%;}
+.cargo-size {margin-top: 0;}
+.shippment-guide > ul > li ,
+.get-quote-form2 > form .row div.col-md-6,
+.get-quote-form > form .row div.col-md-6 {width: 100%;}
+.services1 > .row > div:nth-child(2) .simple-services1 {margin-top: 30px;}
+.member.clicked .member-detail {left: 0;height: 100%;display: block;}
+.customer-detail {float: left;width: 100%;margin-top: 30px;}
+.select-plan > .row > div {width: 100%;}
+.overlape2 {margin-top: 30px;}
+.fun-fact-slider > .row > div {width: 100%;}
+.cargo-packages-list > li {width: 100%;}
+.request-quote-body > form > .row > div {width: 100%;}
+.plan:before {
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 40px solid #1f425d;
+}
+.blog-post-carousel .owl-nav {top: -90px;}
+.services-page > .row > div,
+.our-packages2 > .row > div,
+.team-page > .row > div {width: 100%;}
+#services-detail-tabs .nav > li {width: 100%;}
+.comment {padding: 10px;}
+.comment > img {position: relative;}
+.gallery-detail1 {bottom: 0;padding: 30px;position: relative;width: 100%;}
+.gallery5-carousel-controls > .row > div {width: 50%;}
+.services-info > h2 {font-size: 20px;}
+.blog-list .post-meta2 {padding: 30px;}
+.recent-news-desc {
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.recent-news-thumb {width: auto;}
+blockquote,
+.shipment-visibility {padding: 35px;}
+.shipment-visibility input {width: 85%;}
+.our-packages2 .our-packages {margin-bottom: 0;}
+.packages-info > .nav-tabs > li {margin-bottom: 10px;}
+.team-detail-info {padding: 50px 30px;}
+#map-canvas {height: 300px;}
+.company-projects-list > ul li:first-child:nth-last-child(4), 
+.company-projects-list > ul li:first-child:nth-last-child(4) ~ li, 
+.company-projects-list > ul li:first-child.active:nth-last-child(4), 
+.company-projects-list > ul li:nth-last-child(4) ~ li.active {width: 100% !important;}
+.slide-icon:before {display: none;}
+.track-form .heading2 > h3 {line-height: 22px;}
+.members-area {padding: 0;}
+.member-detail {float: left;padding:30px 20px;position: relative;visibility: visible;width: 100%;}
+.member-thumb .member-info {display: none;}
+.service-box1 > h5,
+.title2 > h2 {font-size:28px;}
+.contact-form > form > .row > div {width: 100%;}
+.contact-form > form > .row > div.col-md-7 {margin-left: 0;}
+.contact-form > form > .row > div.col-md-5 {margin-top: 10px;}
+.news-detail {padding: 50px 20px 30px;}
+.toggle-item > h3 > span {right: 15px;}
+.toggle-item > h3 {padding-left: 30px;}
+.main-carousel {margin-top: 0;}
+.responsive-top-bar .cargo-time {padding-top: 30px;}
+.loc-thumb.post-thumb {margin-top: 30px;}
+.top-sec-btn {height: 25px;line-height: 25px;width: 25px;}
+.main-carousel-cap > h1 {font-size: 20px;}
+.main-carousel-cap > h5 {font-size: 12px;padding: 13px 20px;}
+.main-carousel-cap {padding: 30px 20px;}
+.request-free-quote .heading2 > h3 {font-size: 12px;}
+.calculate-shipping {padding: 60px 40px;}
+.post-info {padding:30px 20px}
+.cities-carousel {padding: 0 50px;}
+.track-form > form > label input {width: 85%;}
+.bottom-line ul > li > a {padding: 10px 0;}
+.comment-detail {padding: 40px 15px;}
+.reply > img {max-width: 70%;}
+.gallery1 .row > div,
+.gallery6 > .row > div.col-md-6 {width: 100%;}
+.our-packages2 .our-packages {min-height: initial;}
+#package-details-tabs .packages-info > h2 {font-size: 14px;text-align: left;}
+.banner-detail1 {padding: 10px;}
+#region .modal-body {padding: 30px 15px;}
+.project-detail-img > strong {font-size: 11px;padding: 6px 15px;right: 20px;top: 20px;}
+.company-values > li {width: 100%;}
+.project-info {padding: 30px;}
+.delivered-info > li {padding: 20px 10px;text-align: center;}
+.delivered-info > li strong {float: left;left: auto;margin-bottom: 10px;position: relative;width: 100%;}
+.delivered-info > li span {width: 100%;}
+.project-overview-detail .title2 > h2 {font-size: 15px;}
+.cargo-size > .row > div {width: 100%;margin-bottom: 10px}
+.cargo-size > .row > div {margin-bottom: 10px;width: 100%}
+.total {padding:0}
+.total > h4 {float: left;left: 0;margin-bottom: 10px;position: relative;top: 0;width: 100%;
+    -webkit-transform:translate(0);
+    -moz-transform:translate(0);
+    -ms-transform:translate(0);
+    -o-transform:translate(0);
+    transform:translate(0);
+}
+.calculate-shipping, .shippment-guide {padding:60px 30px}
+.heading3 > h2:before{display:none}
+.shipment-visibility {padding:40px 25px}
+.track-form .heading2 > img {margin-right: 20px;width:50px}
+.modal-dialog {margin: 0;width: 100%;}
+.modal-content1 {padding: 20px;}
+.signup-form > button {left: 0;top: 0;}
+#calculate-form-popup .modal-body2 {padding: 60px 20px;}
+.sign-in label .text-field {width: 89%;}
+/*===== New Style 25-5-16 =====*/
+.transport-tabs-selector > ul > li {width: 100%;}
+.transport-tabs-selector {padding: 50px;}
+.transport-tabs-content {padding: 20px;}
+.transport-tabs-content .tab-content {padding: 50px 25px;}
+/*===== New Style 31-5-16 =====*/
+.zero-counters > .row > div,
+.zero-counters3 > .row > div,
+.zero-counters4 > .row > div {width: 100%}
+.progressbars-style > h2,
+.messageboxes-page > h3 {font-size: 20px;}
+.progressbars-style3 > ul > li {max-width: 100%;}
+.page-title > h3 {font-size: 25px;}
+.messagebox-style3 .messagebox > i {
+    display: inline-block;
+    left: 0;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.messagebox-style3 .messagebox {padding: 30px;}
+.messagebox-style3 {padding-left: 0;}
+.tabs1 .nav-tabs > li {margin-bottom: 10px;margin-right: 0;width: 100%;}
+.tabs1 .tab-content {padding: 30px;}
+.tabs2 .nav > li {margin-right: 0;width: 100%;}
+.tabs2 .tab-content .tab-pane {padding: 30px;}
+.tabs3 {padding: 30px;}
+.tabs-styles .nav > li {margin-right: 0;width: 100%;}
+.tabs4 {padding: 30px;}
+.tabs4 > .nav {margin-right: 0;max-width: 100%;}
+.tabs4 > .nav li {width: 100%;}
+.bg-layer, 
+.dropcap-style12 {padding: 30px;}
+.track-sec {margin-top: 30px;}
+.notfound-content > span {padding: 20px;}
+.notfound-content > span::before {height: 106%;left: -3px;top: -3px;}
+.news-box.news-list .news-detail {float: left;padding-left: 30px;}
+.search-bar > form input[type="text"] {
+    width: 100%;
+}
+.search-bar > form .theme-btn {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+.notfound-content > h3 {font-size: 50px;}
+.notfound-content > h3 img {margin-top: -10px;max-width: 60px;}
+.notfound-content > strong {font-size: 22px;}
+.error-page .notfound-content > h3 {font-size: 90px;}
+.error-page .notfound-content > h3 img {margin-right: 20px;max-width: 70px;}
+.error-page .notfound-content > strong {font-size: 20px;}
+/*===== New Demo 4-6-16 =====*/
+.dark-title.style2 > h3 {font-size: 25px;}
+.growbusiness-tabs > .nav-tabs > li {margin-right: 0;margin-bottom: 5px;width: 100%;text-align: center;}
+.growbusiness-tabs > .nav-tabs > li:last-child {margin-bottom: 0;}
+.growbusiness-tabs .tab-content .tab-pane > ul li {width: 100%;}
+.news-detail .post-meta2 > li > i {float: none;}
+.toggle-style4 .content {padding: 0 30px;}
+.toggle-style4 .toggle-item > h3 {line-height: 30px;}
+.main-video-cap {
+  position: relative;
+  top: 0;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  left: 0;
+  padding: 30px 15px;
+  background: rgba(0,0,0,.5);
+}
+.featured-video > video {height: 300px;}
+.main-video-cap > span {font-size: 14px;}
+.main-video-cap > h1 {font-size: 50px;}
+.main-video-cap > h1 small {font-size: 40px;}
+.main-video-cap > p {color: #fff;}
+.top-margin.style2 {padding: 0 0 30px;margin-top: 0;background: none;}
+.progress-data > span {font-size: 25px;color: #777 !important;}
+.progress-data > i {font-size: 12px;}
+.char-data {margin-left: 0;max-width: 100%;}
+.char-bars {margin-left: -210px;}
+}
