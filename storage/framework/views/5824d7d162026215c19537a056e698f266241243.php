@@ -2610,4 +2610,4 @@
   </a>
 </div>
 <!-- Color Switcher Ends--></body>
-</html><?php /**PATH /Users/mac/repos/hubrectify-tola/resources/views/temp2.blade.php ENDPATH**/ ?>
+</html><?php /**PATH /Users/mac/repos/crypto-investment-olly/resources/views/temp2.blade.php ENDPATH**/ ?>
