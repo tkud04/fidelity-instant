@@ -156,6 +156,21 @@ class MainController extends Controller {
 
     	return view('why-us',compact(['user','signals','plugins']));
     }
+
+
+	public function postReservation(Request $request)
+	{
+		$user = null;
+	   $signals = $this->helpers->signals;
+	   $plugins = $this->helpers->getPlugins();
+
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+
+		return 'true';
+	}
 	
 	
     

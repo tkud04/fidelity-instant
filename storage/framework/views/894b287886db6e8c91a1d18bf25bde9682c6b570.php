@@ -9,7 +9,7 @@
 <meta name="author" content="FidelityInstant">
 
 <!-- Page Title -->
-<title>@yield('title') | FidelityInstant - Cryptocurrency Investment and Asset Management for Businesses</title>
+<title><?php echo $__env->yieldContent('title'); ?> | FidelityInstant - Cryptocurrency Investment and Asset Management for Businesses</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="images/favicon.png" rel="shortcut icon" type="image/png">
@@ -81,14 +81,14 @@
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div>
   
-  @include('header')
+  <?php echo $__env->make('header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
   <!-- Start main-content -->
   <div class="main-content">
-    @yield('content')
+    <?php echo $__env->yieldContent('content'); ?>
   </div>
 
-  @include('footer')
+  <?php echo $__env->make('footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
   <a class="scrollToTop" href="#" style="display: none;"><i class="fa fa-angle-up"></i></a>
 </div>
@@ -128,3 +128,4 @@
 </body>
 </html>
 
+<?php /**PATH /Users/mac/repos/crypto-investment-olly/resources/views/layout.blade.php ENDPATH**/ ?>

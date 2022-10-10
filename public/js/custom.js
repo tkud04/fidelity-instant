@@ -163,7 +163,7 @@ var THEMEMASCOT = {};
             THEMEMASCOT.initialize.TM_ddslick();
             THEMEMASCOT.initialize.TM_sliderRange();
             THEMEMASCOT.initialize.TM_loadBSParentModal();
-            THEMEMASCOT.initialize.TM_demoSwitcher();
+            //THEMEMASCOT.initialize.TM_demoSwitcher();
             THEMEMASCOT.initialize.TM_platformDetect();
             THEMEMASCOT.initialize.TM_onLoadPopupPromoBox();
             THEMEMASCOT.initialize.TM_customDataAttributes();
@@ -2339,7 +2339,7 @@ var THEMEMASCOT = {};
         init: function() {
             var t = setTimeout(function() {
                 THEMEMASCOT.initialize.TM_wow();
-                THEMEMASCOT.widget.TM_twittie();
+               // THEMEMASCOT.widget.TM_twittie();
                 THEMEMASCOT.initialize.TM_magnificPopup_lightbox();
                 THEMEMASCOT.initialize.TM_preLoaderOnLoad();
                 THEMEMASCOT.initialize.TM_hashForwarding();

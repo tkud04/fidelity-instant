@@ -1,12 +1,12 @@
 <?php
 $void = 'javascript:void(0)';
 ?>
-@extends('layout')
 
-@section('title',"Welcome")
 
-@section('content')
- @include('home-banner')
+<?php $__env->startSection('title',"Welcome"); ?>
+
+<?php $__env->startSection('content'); ?>
+ <?php echo $__env->make('home-banner', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
   <!-- Section: Intro -->
   <section class="bg-silver-light">
@@ -287,7 +287,7 @@ $void = 'javascript:void(0)';
       </div>
     </section>
     
-    @include('home-services')
+    <?php echo $__env->make('home-services', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
      <!-- Divider: Reservation Form -->
      <section id="reservation" class="divider parallax layer-overlay overlay-theme-colored-8" data-bg-img="images/bg/bh9.jpg" data-parallax-ratio="0.7" style="background-image: url(&quot;images/bg/bh9.jpg&quot;); background-position: 50% 424px;">
@@ -301,7 +301,7 @@ $void = 'javascript:void(0)';
                 <p class="text-white mt-15 mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem fugit sequi soluta sit dolor blanditiis reiciendis deleniti cumque doloremque ratione.</p>
                 <h5 class="text-white">I am interested to discuss about:</h5>
                 <!-- Reservation Form Start-->
-                <form id="reservation_form" name="reservation_form" class="reservation-form form-transparent" method="post" action="{{url('reservation')}}" novalidate="novalidate">
+                <form id="reservation_form" name="reservation_form" class="reservation-form form-transparent" method="post" action="<?php echo e(url('reservation')); ?>" novalidate="novalidate">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group mb-20">
@@ -372,4 +372,6 @@ $void = 'javascript:void(0)';
         </div>
       </div>
     </section>
-@stop
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mac/repos/crypto-investment-olly/resources/views/index.blade.php ENDPATH**/ ?>

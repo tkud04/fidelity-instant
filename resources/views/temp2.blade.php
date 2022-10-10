@@ -159,10 +159,10 @@
     <div class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed" style="z-index: 999; position: absolute; top: 0px;">
         <div class="container">
-          <nav id="menuzord" class="menuzord yellow menuzord-responsive"><a href="javascript:void(0)" class="showhide" style="display: inline;"><em></em><em></em><em></em></a>
+          <nav id="menuzord" class="menuzord yellow menuzord-responsive"><a href="javascript:void(0)" class="showhide" style="display: inline;"><em></em><em></em></a>
             <ul class="menuzord-menu menuzord-indented scrollable" style="max-height: 400px; display: none;">
               <li class="home"><a href="#"><i class="fa fa-home font-28"></i></a></li>
-              <li class="active"><a href="#home">Home<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+              <li class="active"><a href="#home">Home</a>
                 <ul class="dropdown" style="right: auto; display: none;">
                   <li><a href="#">Multipage Layouts<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                     <ul class="dropdown" style="">
@@ -222,7 +222,7 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Features<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+              <li><a href="#">Features</a>
                 <ul class="dropdown" style="right: auto; display: none;">
                   <li><a href="features-preloader.html">Preloaders</a></li>
                   <li><a href="#">Layout Variations<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
@@ -439,7 +439,7 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Pages<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+              <li><a href="#">Pages</a>
                 <ul class="dropdown" style="right: auto; display: none;">
                   <li><a href="#">About<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                     <ul class="dropdown" style="">
@@ -531,7 +531,7 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Blog<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+              <li><a href="#">Blog</a>
                 <ul class="dropdown" style="right: auto; display: none;">
                   <li><a href="#">Blog Classic<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                     <ul class="dropdown dropdown-left" style="display: none;">
@@ -580,7 +580,7 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="javascript:void(0)">Mega Menu<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+              <li><a href="javascript:void(0)">Mega Menu</a>
                 <div class="megamenu megamenu-bg-img" style="right: 0px; display: none;">
                   <div class="megamenu-row">
                     <div class="col3">
@@ -645,7 +645,7 @@
                   </div>
                 </div>
               </li>
-              <li><a href="javascript:void(0)">Shortcodes<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+              <li><a href="javascript:void(0)">Shortcodes</a>
                 <div class="megamenu" style="right: 0px; display: none;">
                   <div class="megamenu-row">
                     <div class="col3">
