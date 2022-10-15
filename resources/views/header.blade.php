@@ -23,9 +23,9 @@
             </div>
             <div class="widget">
               <ul class="list-inline  text-right flip sm-text-center">
-                <li class="m-0 pl-10"> <a href="ajax-load/login-form.html" class="text-white ajaxload-popup"><i class="fa fa-user-o mr-5 text-theme-colored2"></i> Login /</a> </li>
+                <li class="m-0 pl-10"> <a href="#login-popup" class="text-white ypp"><i class="fa fa-user-o mr-5 text-theme-colored2"></i> Login /</a> </li>
                 <li class="m-0 pl-0 pr-10"> 
-                  <a href="ajax-load/register-form.html" class="text-white ajaxload-popup"><i class="fa fa-edit mr-5 text-theme-colored2"></i>Register</a> 
+                  <a href="#register-popup" class="text-white ypp"><i class="fa fa-edit mr-5 text-theme-colored2"></i>Register</a> 
                 </li>
               </ul>
             </div>
