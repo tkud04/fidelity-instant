@@ -53,23 +53,32 @@ class MainController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function getTemp(Request $request)
+    public function postReservation(Request $request)
     {
-       $user = null;
-	  $req = $request->all();
-
-		if(Auth::check())
-		{
-			$user = Auth::user();
-		}
-		$params = ['user','signals','plugins'];
-
-		
-		$signals = $this->helpers->signals;
-        $plugins = $this->helpers->getPlugins();
-        return view('temp2',compact($params));
+    	$req = $request->all();
+		#dd($req);
+        $validator = Validator::make($req, [
+                             'name' => 'required',
+                             'email' => 'required',
+                             'occupation' => 'required'
+         ]);
+         
+         if($validator->fails())
+         {
+             $messages = $validator->messages();
+             return redirect()->back()->withInput()->with('errors',$messages);
+             //dd($messages);
+         }
+         
+         else
+         {
+			//send email here
+            // $ret = $this->helpers->addTrackingHistory($req);
+			 
+	        session()->flash("reservation-status","ok");
+			return redirect()->intended('/');
+         } 	  
     }
-	
 
 	
 
@@ -157,21 +166,6 @@ class MainController extends Controller {
 
     	return view('why-us',compact(['user','signals','plugins']));
     }
-
-
-	public function postReservation(Request $request)
-	{
-		$user = null;
-	   $signals = $this->helpers->signals;
-	   $plugins = $this->helpers->getPlugins();
-
-		if(Auth::check())
-		{
-			$user = Auth::user();
-		}
-
-		return 'true';
-	}
 	
 	
     

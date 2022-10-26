@@ -1,3 +1,6 @@
+<?php
+$void = 'javascript:void(0)';
+?>
 <!-- Footer -->
   <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#152029" style="background-image: url(&quot;images/footer-bg.png&quot;); background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: rgb(21, 32, 41) !important;">
     <div class="container pt-70 pb-40">
@@ -5,11 +8,11 @@
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
             <img class="mt-5 mb-20" alt="" src="images/logo-white-footer.png">
-            <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
+            <p>Los Angeles, CA</p>
             <ul class="list-inline mt-5">
               <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">123-456-789</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">contact@yourdomain.com</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">www.yourdomain.com</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">info@fidelityinstant.com</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-colored2 mr-5"></i> <a class="text-gray" href="<?php echo e(url('/')); ?>">fidelityinstant.com</a> </li>
             </ul>
           </div>
         </div>
@@ -17,17 +20,19 @@
           <div class="widget dark">
             <h4 class="widget-title">Useful Links</h4>
             <ul class="list angle-double-right list-border">
-              <li><a href="page-about-style1.html">About Us</a></li>
-              <li><a href="page-services-style1.html">Our Service</a></li>
-              <li><a href="page-pricing-style1.html">Pricing Table</a></li>
-              <li><a href="page-project-style1.html">Project</a></li>         
+              <li><a href="<?php echo e($void); ?>">About Us</a></li>
+              <li><a href="<?php echo e($void); ?>">Our Service</a></li>
+              <li><a href="<?php echo e($void); ?>">Pricing Table</a></li>
+              <li><a href="<?php echo e($void); ?>">Project</a></li>         
             </ul>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
             <h4 class="widget-title">Twitter Feed</h4>
-            <div class="twitter-feed list-border clearfix" data-username="Envato" data-count="2"><ul><li class="item"><a href="https://twitter.com/shanebroadhead" target="_blank" title="shanebroadhead on Twitter">@shanebroadhead</a> Hi Smitty, Thanks for your valuable feedback. I will send it to the Envato devs. ^PR <div class="date">Oct. 7, 2022</div></li><li class="item">Increase your <a href="https://twitter.com/search?q=%23LogoDesign&amp;src=hash" target="_blank" title="Search for #LogoDesign">#LogoDesign</a> skills and create stand-out designs with these top 10 logo design tutorials from… <a href="https://t.co/Xh2yDX0pDK" target="_blank" title="Visit this link">https://t.co/Xh2yDX0pDK</a> <div class="date">Oct. 7, 2022</div></li></ul></div>
+            <div class="twitter-feed list-border clearfix" data-username="Envato" data-count="2">
+              <ul>
+                <li class="item"><a href="<?php echo e($void); ?>" target="_blank" title="shanebroadhead on Twitter">@shanebroadhead</a> Hi Smitty, Thanks for your valuable feedback. I will send it to the Envato devs. ^PR <div class="date">Oct. 7, 2022</div></li><li class="item">Increase your <a href="<?php echo e($void); ?>" target="_blank" title="Search for #LogoDesign">#LogoDesign</a> skills and create stand-out designs with these top 10 logo design tutorials from… <a href="<?php echo e($void); ?>" target="_blank" title="Visit this link">https://t.co/Xh2yDX0pDK</a> <div class="date">Oct. 7, 2022</div></li></ul></div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">

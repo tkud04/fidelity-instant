@@ -34,7 +34,7 @@ class Helper implements HelperContract
              public $signals = ['okays'=> ["login-status" => "Sign in successful",            
                      "signup-status" => "Account created successfully!",
                      "update-profile-status" => "Profile updated!",
-                     "new-tracking-status" => "Tracking added!",
+                     "reservation-status" => "Thank you for reaching out! As we attend to a lot of reservations per day, our representatives would contact you within the next 24 - 48 hours",
                      "tracking-status" => "Tracking updated!",
                      "remove-tracking-status" => "Tracking removed!",
                      "contact-status" => "Message sent! Our customer service representatives will get back to you shortly.",

@@ -20,6 +20,10 @@ Route::get('/', [MainController::class,'getIndex']);
 Route::get('contact', [MainController::class,'getContact']);
 Route::get('about', [MainController::class,'getAbout']);
 Route::get('why-us', [MainController::class,'getWhyUs']);
+Route::get('reservation', function(){
+    return redirect()->intended('/');
+});
+Route::post('reservation', [MainController::class,'postReservation']);
 
 
 //Authentication
@@ -33,17 +37,7 @@ Route::get('bye', [LoginController::class,'getLogout']);
 Route::get('track', [MainController::class,'getTrack']);
 
 //Admin
-Route::get('dashboard', [AdminController::class,'getDashboard']);
-Route::get('trackings', [AdminController::class,'getTrackings']);
-Route::get('add-tracking', [AdminController::class,'getAddTracking']);
-Route::post('add-tracking', [AdminController::class,'postAddTracking']);
-Route::get('tracking', [AdminController::class,'getTracking']);
-Route::post('tracking', [AdminController::class,'postTracking']);
-Route::get('remove-tracking', [AdminController::class,'getRemoveTracking']);
-
-Route::get('tracking-history', [AdminController::class,'getTrackingHistory']);
-Route::get('add-tracking-history', [AdminController::class,'getDashboard']);
-Route::post('add-tracking-history', [AdminController::class,'postAddTrackingHistory']);
+Route::get('dashboard', [MainController::class,'getDashboard']);
 
 Route::get('plugins', [AdminController::class,'getPlugins']);
 Route::get('add-plugin', [AdminController::class,'getAddPlugin']);

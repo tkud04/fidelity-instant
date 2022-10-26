@@ -26,11 +26,11 @@ $void = 'javascript:void(0)';
                 <img class="img-fullwidth" src="images/about/1.jpg" alt="">
                 </div>
                 <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
-                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="#">
+                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="{{$void}}">
                     <i class="fa fa-dollar text-white"></i>
                   </a>
                   <h3 class="icon-box-title">Currency Investment</h3>
-                  <p class="text-gray">If you’re willing to invest your time and money in the financial markets, but aren’t sure you have the skill or experience, we have the perfect solution.</p>
+                  <p class="text-gray">If you're willing to invest your time and money in the financial markets, but aren't sure you have the skill or experience, we have the perfect solution.</p>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@ $void = 'javascript:void(0)';
                 <img class="img-fullwidth" src="images/about/2.jpg" alt="">
                 </div>
                 <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
-                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="#">
+                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="{{$void}}">
                     <i class="fa fa-btc text-white"></i>
                   </a>
                   <h3 class="icon-box-title">Bitcoin Investment</h3>
@@ -54,7 +54,7 @@ $void = 'javascript:void(0)';
                 <img class="img-fullwidth" src="images/about/3.jpg" alt="">
                 </div>
                 <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
-                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="#">
+                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="{{$void}}">
                     <i class="fa fa-exchange text-white"></i>
                   </a>
                   <h3 class="icon-box-title">Bitcoin Exchange</h3>
@@ -179,7 +179,7 @@ Our user-friendly, trade-everything platform empowers you to invest in the stock
             <div class="col-md-10 col-md-offset-1">
               <h2 class="text-uppercase mt-0">Why Choose <span class="text-theme-colored2"> Fidelity Instant</span></h2>
               <div class="diamond-line-centered-theme-colored2"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
+              <p>FidelityInstant is backed by a team of world-class experts and the best technology talent. To stay at the forefront of innovation, we're always working on strengthening our position as Europe's leading digital asset platform.</p>
             </div>
           </div>
         </div>
@@ -187,61 +187,61 @@ Our user-friendly, trade-everything platform empowers you to invest in the stock
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
-                <a href="#" class="media-left pull-left"><img src="images/flaticon-png/small/f1.png" alt="" width="64"></a>
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f1.png" alt="" width="64"></a>
                 <div class="media-body">
-                  <h4 class="media-heading heading">Bitcoin Transaction</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam </p>
-                  <a href="#" class="text-theme-colored2">Read More →</a>
+                  <h4 class="media-heading heading">Manage your portfolio</h4>
+                  <p>Buy and sell popular digital currencies, keep track of them in the one place. </p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
-                <a href="#" class="media-left pull-left"><img src="images/flaticon-png/small/f2.png" alt="" width="64"></a>
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f2.png" alt="" width="64"></a>
                 <div class="media-body">
-                  <h4 class="media-heading heading">Instant Exchange</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam </p>
-                  <a href="#" class="text-theme-colored2">Read More →</a>
+                  <h4 class="media-heading heading">Recurring buys</h4>
+                  <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly. </p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
-                <a href="#" class="media-left pull-left"><img src="images/flaticon-png/small/f3.png" alt="" width="64"></a>
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f3.png" alt="" width="64"></a>
                 <div class="media-body">
                   <h4 class="media-heading heading">Investment Banking</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam .</p>
-                  <a href="#" class="text-theme-colored2">Read More →</a>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
-                <a href="#" class="media-left pull-left"><img src="images/flaticon-png/small/f4.png" alt="" width="64"></a>
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f4.png" alt="" width="64"></a>
                 <div class="media-body">
                   <h4 class="media-heading heading">Safe and Secure</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam </p>
-                  <a href="#" class="text-theme-colored2">Read More →</a>
+                  <p>For added security, store your funds in a vault with time delayed withdrawals.</p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
-                <a href="#" class="media-left pull-left"><img src="images/flaticon-png/small/f5.png" alt="" width="64"></a>
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f5.png" alt="" width="64"></a>
                 <div class="media-body">
                   <h4 class="media-heading heading">Investment Planning</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam </p>
-                  <a href="#" class="text-theme-colored2">Read More →</a>
+                  <p>All USD cash balances are covered by FDIC insurance, up to a maximum of $250,000. </p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
-                <a href="#" class="media-left pull-left"><img src="images/flaticon-png/small/f6.png" alt="" width="64"></a>
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f6.png" alt="" width="64"></a>
                 <div class="media-body">
                   <h4 class="media-heading heading">Instant Trading</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam </p>
-                  <a href="#" class="text-theme-colored2">Read More →</a>
+                  <p>We support trading on a variety of the most popular digital currencies in real-time.</p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
                 </div>
               </div>
             </div>
@@ -284,7 +284,7 @@ Our user-friendly, trade-everything platform empowers you to invest in the stock
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 mb-md-0">
             <div class="funfact text-center">
-              <h2 data-animation-duration="2000" data-value="5" class="animate-number text-white font-48 font-weight-500 appeared">5</h2>
+              <h2 data-animation-duration="2000" data-value="13" class="animate-number text-white font-48 font-weight-500 appeared">13</h2>
               <div class="diamond-line-centered-theme-colored2"></div>
               <h4 class="text-white text-uppercase mb-0">Years of Experience</h4>
             </div>
@@ -304,39 +304,33 @@ Our user-friendly, trade-everything platform empowers you to invest in the stock
               <div class="mt-50">
                 <h3 class="text-white font-28 font-weight-600 mt-0 mb-20">Request a Call Back </h3>
                 <div class="diamond-line-left-theme-colored2"></div>
-                <p class="text-white mt-15 mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem fugit sequi soluta sit dolor blanditiis reiciendis deleniti cumque doloremque ratione.</p>
+                <p class="text-white mt-15 mb-30">Reach out to us for more inquiries or just to say hi:</p>
                 <h5 class="text-white">I am interested to discuss about:</h5>
                 <!-- Reservation Form Start-->
-                <form id="reservation_form" name="reservation_form" class="reservation-form form-transparent" method="post" action="{{url('reservation')}}" novalidate="novalidate">
+                <form id="reservation_form2" class="reservation-form form-transparent" method="post" action="{{url('reservation')}}" novalidate="novalidate">
+                  {!! csrf_field() !!} 
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group mb-20">
-                        <input placeholder="Enter Name" id="reservation_name" name="reservation_name" required="" class="form-control" aria-required="true" type="text">
+                        <input placeholder="Enter Name" id="reservation_name" name="name" required="" class="form-control" aria-required="true" type="text">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group mb-20">
-                        <input placeholder="Email" id="reservation_email" name="reservation_email" class="form-control" required="" aria-required="true" type="text">
+                        <input placeholder="Email" id="reservation_email" name="email" class="form-control" required="" aria-required="true" type="text">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group mb-20">
                         <div class="styled-select">
-                          <select id="car_select" name="car_select" class="form-control" required="" aria-required="true">
-                            <option value="">- Select Your Categories -</option>
-                            <option value="Toyota">Business</option>
-                            <option value="Jeep">Consulting</option>
-                            <option value="Audi">Finance</option>
-                            <option value="Truck">Professional</option>
-                            <option value="Land Rover">Marketing</option>
-                          </select>
+                        <input placeholder="Your occupation" id="reservation_occupation" name="occupation" class="form-control" required="" aria-required="true" type="text">
                         </div>
                       </div>
                     </div>                 
                     <div class="col-sm-3">
                       <div class="form-group mb-0 mt-0">
                         <input name="form_botcheck" class="form-control" value="" type="hidden">
-                        <button type="submit" class="btn btn-theme-colored2 btn-block pt-10 pb-10" data-loading-text="Please wait...">Submit Now</button>
+                        <button type="submit" class="btn btn-theme-colored2 btn-block pt-10 pb-10">Submit Now</button>
                       </div>
                     </div>
                   </div>
