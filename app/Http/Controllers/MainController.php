@@ -34,13 +34,14 @@ class MainController extends Controller {
 			$user = Auth::user();
 		}
 		$params = ['user','signals','plugins'];
+        $xx = false;
 
 		if(isset($req['xx']))
 		{
-			$xx = 1;
-          array_push($params,'xx');
+			$xx = true;
 		}
-
+        
+		array_push($params,'xx');
 		
 		$signals = $this->helpers->signals;
         $plugins = $this->helpers->getPlugins();

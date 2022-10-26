@@ -110,6 +110,8 @@ class LoginController extends Controller {
         
         $validator = Validator::make($req, [
                              'password' => 'required|confirmed',
+                             'fname' => 'required', 
+                             'lname' => 'required', 
                              'email' => 'required|email', 
                              #'g-recaptcha-response' => 'required',
                            # 'terms' => 'accepted',
@@ -140,7 +142,7 @@ class LoginController extends Controller {
              //after creating the user, send back to the registration view with a success message
              #$this->helpers->sendEmail($user->email,'Welcome To Disenado!',['name' => $user->fname, 'id' => $user->id],'emails.welcome','view');
              session()->flash("signup-status", "success");
-             return redirect()->intended('dashboard');
+             return redirect()->intended('/');
           }
     }
 	

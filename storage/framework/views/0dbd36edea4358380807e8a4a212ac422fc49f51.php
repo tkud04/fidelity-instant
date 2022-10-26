@@ -26,16 +26,16 @@ $void = 'javascript:void(0)'
             </div>
             <div class="widget">
               <ul class="list-inline  text-right flip sm-text-center">
-                @if($user == null)
+                <?php if($user == null): ?>
                 <li class="m-0 pl-10"> <a href="#login-popup" id='login-popup-launcher' class="text-white ypp"><i class="fa fa-user mr-5 text-theme-colored2"></i> Login /</a> </li>
-                @if($signup)
+                <?php if($signup): ?>
                 <li class="m-0 pl-0 pr-10"> 
                   <a href="#register-popup" id='register-popup-launcher' class="text-white ypp"><i class="fa fa-edit mr-5 text-theme-colored2"></i>Register</a> 
                 </li>
-                @endif
-                @else
-                <li class="m-0 pl-10"> <a href="#" class="text-white ypp"><i class="fa fa-dashboard mr-5 text-theme-colored2"></i> Dashboard</a> </li>
-                @endif
+                <?php endif; ?>
+                <?php else: ?>
+                <li class="m-0 pl-10"> <a href="#login-popup" class="text-white ypp"><i class="fa fa-dashboard mr-5 text-theme-colored2"></i> Dashboard</a> </li>
+                <?php endif; ?>
               </ul>
             </div>
           </div>
@@ -46,7 +46,7 @@ $void = 'javascript:void(0)'
       <div class="container pt-20 pb-20">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-3">
-            <a class="menuzord-brand pull-left flip sm-pull-center mb-15" style="color: #ffae11;" href="{{url('/')}}">Fidelity Instant</a>
+            <a class="menuzord-brand pull-left flip sm-pull-center mb-15" style="color: #ffae11;" href="<?php echo e(url('/')); ?>">Fidelity Instant</a>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-9">
             <div class="header-widget-contact-info-box sm-text-center">
@@ -86,7 +86,7 @@ $void = 'javascript:void(0)'
           <nav id="menuzord" class="menuzord yellow menuzord-responsive"><a href="javascript:void(0)" class="showhide" style="display: inline;"><em></em><em></em></a>
             <ul class="menuzord-menu menuzord-indented scrollable" style="max-height: 400px; display: none;">
               <li class="home"><a href="#"><i class="fa fa-home font-28"></i></a></li>
-              <li class="active"><a href="{{url('/')}}">Home</a></li>
+              <li class="active"><a href="<?php echo e(url('/')); ?>">Home</a></li>
               <li><a href="#">About Us</a> </li>
               <li><a href="#">Blog</a></li>
               <li><a href="javascript:void(0)">Latest</a>
@@ -172,4 +172,4 @@ $void = 'javascript:void(0)'
         </div>
       </div>
     </div>
-  </header>
+  </header><?php /**PATH /Users/mac/repos/fidelity-instant/resources/views/header.blade.php ENDPATH**/ ?>

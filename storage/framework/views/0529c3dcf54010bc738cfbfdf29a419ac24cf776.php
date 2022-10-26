@@ -9,7 +9,7 @@
 <meta name="author" content="FidelityInstant">
 
 <!-- Page Title -->
-<title>@yield('title') | FidelityInstant - Cryptocurrency Investment and Asset Management for Businesses</title>
+<title><?php echo $__env->yieldContent('title'); ?> | FidelityInstant - Cryptocurrency Investment and Asset Management for Businesses</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="images/favicon.png" rel="shortcut icon" type="image/png">
@@ -85,7 +85,7 @@
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div>
   
-  @include('header',['user' => $user,'signup' => $xx])
+  <?php echo $__env->make('header',['user' => $user,'signup' => $xx], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
    <!--------- Session notifications-------------->
    <?php
@@ -104,20 +104,20 @@
               
              ?> 
 
-                 @if($pop != "" && $val != "")
-                   @include('session-status',['pop' => $pop, 'val' => $val])
-                 @endif
+                 <?php if($pop != "" && $val != ""): ?>
+                   <?php echo $__env->make('session-status',['pop' => $pop, 'val' => $val], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                 <?php endif; ?>
         	<!--------- Input errors -------------->
-                    @if (count($errors) > 0)
-                          @include('input-errors', ['errors'=>$errors])
-                     @endif
+                    <?php if(count($errors) > 0): ?>
+                          <?php echo $__env->make('input-errors', ['errors'=>$errors], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                     <?php endif; ?>
 
   <!-- Start main-content -->
   <div class="main-content">
-    @yield('content')
+    <?php echo $__env->yieldContent('content'); ?>
   </div>
 
-  @include('footer')
+  <?php echo $__env->make('footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
   <a class="scrollToTop" href="#" style="display: none;"><i class="fa fa-angle-up"></i></a>
 </div>
@@ -161,8 +161,9 @@
       <div class="row">
         <div class="col-md-12">
           <!-- Login Form -->
-          <form id="login-form" name="login-form" class="reservation-form mb-0 bg-silver-light p-30" method="post" action="{{url('login')}}" novalidate="novalidate">
-           {!! csrf_field() !!}
+          <form id="login-form" name="login-form" class="reservation-form mb-0 bg-silver-light p-30" method="post" action="<?php echo e(url('login')); ?>" novalidate="novalidate">
+           <?php echo csrf_field(); ?>
+
            <h3 class="text-center mt-0 mb-30">login to your registered account!</h3>
             <div class="row">
               <div class="col-sm-12">
@@ -199,8 +200,8 @@
       <div class="row">
         <div class="col-md-12">
           <!-- Register Form Starts -->
-          <form id="reservation_form_popup" name="reservation_form" class="reservation-form mb-0 bg-silver-light p-30" method="post" action="{{url('signup')}}" novalidate="novalidate">
-          {!! csrf_field() !!} 
+          <form id="reservation_form_popup" name="reservation_form" class="reservation-form mb-0 bg-silver-light p-30" method="post" action="<?php echo e(url('signup')); ?>" novalidate="novalidate">
+          <?php echo csrf_field(); ?> 
            <h3 class="text-center mt-0 mb-30">Register here a new account!</h3>
             <div class="row">
               <div class="col-sm-6">
@@ -246,8 +247,9 @@
 </section>
 <!-- Register Popup End -->
 
-@yield('popups')
+<?php echo $__env->yieldContent('popups'); ?>
 
 </body>
 </html>
 
+<?php /**PATH /Users/mac/repos/fidelity-instant/resources/views/layout.blade.php ENDPATH**/ ?>

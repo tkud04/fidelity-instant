@@ -56,6 +56,20 @@ $(document).ready(() => {
         }
     })
 
+    $('#signup-to-login').click(e => {
+      e.preventDefault()
+      //hideElem('#register-popup')
+      $('#register-popup').magnificPopup('close')
+      $('#login-popup-launcher').click()
+    })
+
+    $('#login-to-signup').click(e => {
+      e.preventDefault()
+      //hideElem('#register-popup')
+      $('#register-popup').magnificPopup('close')
+      $('#register-popup-launcher').click()
+    })
+
     $('#track-popup-submit').click(e => {
       e.preventDefault()
       hideElem('#track-popup-tnum-error')
