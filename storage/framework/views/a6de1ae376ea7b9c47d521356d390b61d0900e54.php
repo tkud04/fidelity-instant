@@ -16,7 +16,7 @@ $void = 'javascript:void(0)';
             <div class="col-md-12">
               <h2 class="text-uppercase text-theme-colored mt-0">Need to take care of your Currency Investments</h2>
               <div class="diamond-line-centered-theme-colored2"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
+              <p> Cryptocurrency is for everyone <br>Fidelity Instant has made investing simple for millions around the world. Join the other 10 million users.</p>
             </div>
           </div>
           <div class="row mt-40">

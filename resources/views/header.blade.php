@@ -97,30 +97,30 @@ $void = 'javascript:void(0)'
                       <div class="widget">
                         <div class="latest-posts">
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="{{$void}}" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Post Title Here</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="{{$void}}">Post Title Here</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="{{$void}}" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="{{$void}}">Industrial Coatings</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="{{$void}}" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Storefront Installations</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="{{$void}}">Storefront Installations</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="{{$void}}" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="{{$void}}">Industrial Coatings</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>

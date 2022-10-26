@@ -34,7 +34,7 @@ $void = 'javascript:void(0)'
                 </li>
                 <?php endif; ?>
                 <?php else: ?>
-                <li class="m-0 pl-10"> <a href="#login-popup" class="text-white ypp"><i class="fa fa-dashboard mr-5 text-theme-colored2"></i> Dashboard</a> </li>
+                <li class="m-0 pl-10"> <a href="#" class="text-white ypp"><i class="fa fa-dashboard mr-5 text-theme-colored2"></i> Dashboard</a> </li>
                 <?php endif; ?>
               </ul>
             </div>
@@ -97,30 +97,30 @@ $void = 'javascript:void(0)'
                       <div class="widget">
                         <div class="latest-posts">
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="<?php echo e($void); ?>" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Post Title Here</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="<?php echo e($void); ?>">Post Title Here</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="<?php echo e($void); ?>" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="<?php echo e($void); ?>">Industrial Coatings</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="<?php echo e($void); ?>" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Storefront Installations</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="<?php echo e($void); ?>">Storefront Installations</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>
                           <article class="post media-post clearfix pb-0 mb-10">
-                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <a href="<?php echo e($void); ?>" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
+                              <h5 class="post-title mt-0 mb-5"><a href="<?php echo e($void); ?>">Industrial Coatings</a></h5>
                               <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                           </article>
