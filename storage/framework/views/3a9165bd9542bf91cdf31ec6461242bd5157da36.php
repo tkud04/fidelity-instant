@@ -2,24 +2,24 @@
 $items = [
     [
         'image' => "images/bg/bg2.jpg",
-        'text-white'=> "Crypto",
-        'text-colored' => "Press",
+        'text-white'=> "Fidelity",
+        'text-colored' => "Instant",
         'description' => "Every day we bring hope to millions of children in the world's <br>hardest places as a sign of God's unconditional love.",
         'btn-text' => "Apply Now",
         'btn-url' => "javascript:void(0)"
     ],
     [
         'image' => "images/bg/bg3.jpg",
-        'text-white'=> "Crypto",
-        'text-colored' => "Press",
+        'text-white'=> "Fidelity",
+        'text-colored' => "Instant",
         'description' => "Every day we bring hope to millions of children in the world's <br>hardest places as a sign of God's unconditional love.",
         'btn-text' => "Apply Now",
         'btn-url' => "javascript:void(0)"
     ],
     [
         'image' => "images/bg/bg5.jpg",
-        'text-white'=> "Crypto",
-        'text-colored' => "Press",
+        'text-white'=> "Fidelity",
+        'text-colored' => "Instant",
         'description' => "Every day we bring hope to millions of children in the world's <br>hardest places as a sign of God's unconditional love.",
         'btn-text' => "Apply Now",
         'btn-url' => "javascript:void(0)"
@@ -40,10 +40,10 @@ $items = [
                   <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                       <div class="bg-white-transparent text-center pt-20 pb-50 outline-border">
-                        <h1 class="text-white text-uppercase font-54">Crypto <span class="text-theme-colored2">Press</span>
-                        </h1>
-                        <h5 class="text-white font-weight-400">Every day we bring hope to millions of children in the world's <br>hardest places as a sign of God's unconditional love. </h5>
-                        <a class="btn btn-colored btn-theme-colored btn-flat smooth-scroll-to-target mt-15" href="#donate-now">Apply Now</a>
+                        <h2 class="text-white text-uppercase font-48"><?php echo e($i['text-white']); ?> <span class="text-theme-colored2"><?php echo e($i['text-colored']); ?></span>
+                        </h2>
+                        <h5 class="text-white font-weight-400"> <?php echo $i['description']; ?> </h5>
+                        <a class="btn btn-colored btn-theme-colored btn-flat smooth-scroll-to-target mt-15" href="<?php echo e($i['btn-url']); ?>"><?php echo e($i['btn-text']); ?></a>
                       </div>
                     </div>
                   </div>

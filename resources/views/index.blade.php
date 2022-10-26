@@ -27,10 +27,10 @@ $void = 'javascript:void(0)';
                 </div>
                 <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
                   <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="#">
-                    <i class="fa fa-btc text-white"></i>
+                    <i class="fa fa-dollar text-white"></i>
                   </a>
-                  <h3 class="icon-box-title">Bitcoin Transaction</h3>
-                  <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
+                  <h3 class="icon-box-title">Currency Investment</h3>
+                  <p class="text-gray">If you’re willing to invest your time and money in the financial markets, but aren’t sure you have the skill or experience, we have the perfect solution.</p>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ $void = 'javascript:void(0)';
                     <i class="fa fa-btc text-white"></i>
                   </a>
                   <h3 class="icon-box-title">Bitcoin Investment</h3>
-                  <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
+                  <p class="text-gray">Invest in the most lucrative cryptocurrencies and Follow the movements of your favourite cryptocurrencies in real time.</p>
                 </div>
               </div>
             </div>
@@ -55,10 +55,10 @@ $void = 'javascript:void(0)';
                 </div>
                 <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
                   <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="#">
-                    <i class="fa fa-btc text-white"></i>
+                    <i class="fa fa-exchange text-white"></i>
                   </a>
                   <h3 class="icon-box-title">Bitcoin Exchange</h3>
-                  <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
+                  <p class="text-gray">We're building a platform without digital walls and complex barriers. A platform that empowers you to see new possibilities for your money - and helps make them a reality.</p>
                 </div>
               </div>
             </div>
@@ -75,11 +75,17 @@ $void = 'javascript:void(0)';
             <div class="col-md-6">
               <div class="about-details mb-sm-30">
                 <h2 class="mt-0 text-theme-colored">Buy, sell and Exchange all you need to know about bitcoin</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, odioserunt provident maiores consectetur adipisicing elit. Aliquam odio dese runtesseu provident maiores libero porro dolorem est. Velit necessitatibus fugiat error incidunt excepturi doloribus officia aspernatur quod libero  Velit necessitatibus fugiat error incidunt excepturi doloribus officia</p>
+                <p>
+                FidelityInstant was founded in 2003 in Vienna, Austria with the aim of making investing accessible for everyone. Our goals since day one was to reimagine what it means to invest, by making simple, easy-to-use financial products for everyone.
+
+Now, 19 years later, and with more than 730 team members and 3.5 million users, we're one of the fastest growing fintechs in the world. With a PSD2 payment service provider licence, state-of-the-art security and streamlined user experience, we make it possible for both first-time investors and seasoned experts to invest in what they believe in. 
+
+Our user-friendly, trade-everything platform empowers you to invest in the stocks, cryptocurrencies and metals you want — with any amount of money.
+                </p>
                 <div class="singnature mt-20">
                   <img src="images/signature.png" alt="img1">
                 </div>
-                <a href="#" class="btn btn-flat btn-colored btn-theme-colored2 mt-15 mr-15">Read More</a><a href="#" class="btn btn-flat btn-colored btn-default btn-theme-colored mt-15">Get a Quote</a>
+                <a href="{{$void}}" class="btn btn-flat btn-colored btn-theme-colored2 mt-15 mr-15">Read More</a><a href="{{$void}}" class="btn btn-flat btn-colored btn-default btn-theme-colored mt-15">Get a Quote</a>
               </div>
             </div>
             <div class="col-md-6 hidden-sm">
@@ -171,7 +177,7 @@ $void = 'javascript:void(0)';
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase mt-0">Why Choose <span class="text-theme-colored2"> Bitcoin</span></h2>
+              <h2 class="text-uppercase mt-0">Why Choose <span class="text-theme-colored2"> Fidelity Instant</span></h2>
               <div class="diamond-line-centered-theme-colored2"></div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
             </div>
