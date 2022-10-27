@@ -36,8 +36,17 @@ Route::get('bye', [LoginController::class,'getLogout']);
 //Tracking
 Route::get('track', [MainController::class,'getTrack']);
 
-//Admin
+//Users
 Route::get('dashboard', [MainController::class,'getDashboard']);
+Route::get('profile', [MainController::class,'getProfile']);
+Route::post('profile', [MainController::class,'postProfile']);
+Route::get('bye', [LoginController::class,'getLogout']);
+
+//Portfolios
+Route::get('portfolios', [MainController::class,'getPortfolios']);
+
+//Transactions
+Route::get('transactions', [MainController::class,'getTransactions']);
 
 Route::get('plugins', [AdminController::class,'getPlugins']);
 Route::get('add-plugin', [AdminController::class,'getAddPlugin']);

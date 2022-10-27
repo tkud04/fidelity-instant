@@ -35,6 +35,9 @@ $void = 'javascript:void(0)'
                 <?php endif; ?>
                 <?php else: ?>
                 <li class="m-0 pl-10"> <a href="<?php echo e(url('dashboard')); ?>" class="text-white"><i class="fa fa-dashboard mr-5 text-theme-colored2"></i> Dashboard</a> </li>
+                <li class="m-0 pl-0 pr-10"> 
+                  <a href="<?php echo e(url('bye')); ?>" class="text-white"><i class="fa fa-sign-out mr-5 text-theme-colored2"></i>Sign out</a> 
+                </li>
                 <?php endif; ?>
               </ul>
             </div>

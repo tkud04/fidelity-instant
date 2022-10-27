@@ -8,7 +8,20 @@ $items = [
     'description' => "View available portfolios",
     'url' => url('portfolios'),
     'buttonTitle' => "View portfolios"
-  ]
+  ],
+  [
+    'title' => "Transactions",
+    'description' => "View inflow and outflow from your assets",
+    'url' => url('transactions'),
+    'buttonTitle' => "View transactions"
+  ],
+  [
+    'title' => "Profile",
+    'description' => "View profile information",
+    'url' => url('profile'),
+    'buttonTitle' => "View profile"
+  ],
+
 ];
 ?>
 @extends('layout')

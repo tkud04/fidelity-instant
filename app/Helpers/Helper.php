@@ -400,10 +400,12 @@ $subject = $data['subject'];
                return $u; 
            }		   
 		   
-		   function getTNum()
-		   {
-			   return "MSC".rand(1999,9999999);
-		   }
+           function getPortfolios($user,$type="all")
+           {
+            $ret = [];
+
+            return $ret;
+           }
 		   
 		     function addTracking($data)
            {

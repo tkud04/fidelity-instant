@@ -190,6 +190,127 @@ class MainController extends Controller {
 
     	return view('dashboard',compact(['user','signals','plugins']));
     }
+
+	 /**
+	 * Show the application contact view to the user.
+	 *
+	 * @return Response
+	 */
+	public function getProfile(Request $request)
+    {
+       $user = null;
+	   $signals = $this->helpers->signals;
+	   $plugins = $this->helpers->getPlugins();
+
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+
+		else
+		{
+			return redirect()->intended('/');
+		}
+
+    	return view('profile',compact(['user','signals','plugins']));
+    }
+
+
+	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+    public function postProfile(Request $request)
+    {
+		$user = null;
+
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+
+		else
+		{
+			return redirect()->intended('/');
+		}
+
+    	$req = $request->all();
+		#dd($req);
+        $validator = Validator::make($req, [
+                             'fname' => 'required',
+                             'lname' => 'required',
+                             'email' => 'required'
+         ]);
+         
+         if($validator->fails())
+         {
+             $messages = $validator->messages();
+             return redirect()->back()->withInput()->with('errors',$messages);
+             //dd($messages);
+         }
+         
+         else
+         {
+			$this->helpers->updateUser($req);
+			 
+	        session()->flash("update-profile-status","ok");
+			return redirect()->intended('dashboard');
+         } 	  
+    }
+
+
+	 /**
+	 * Show the application contact view to the user.
+	 *
+	 * @return Response
+	 */
+	public function getPortfolios(Request $request)
+    {
+       $user = null;
+	   $signals = $this->helpers->signals;
+	   $plugins = $this->helpers->getPlugins();
+
+
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+
+		else
+		{
+			return redirect()->intended('/');
+		}
+
+		$portfolios = $this->helpers->getPortfolios($user);
+
+    	return view('portfolios',compact(['user','signals','plugins']));
+    }
+
+
+	 /**
+	 * Show the application contact view to the user.
+	 *
+	 * @return Response
+	 */
+	public function getTransactions(Request $request)
+    {
+       $user = null;
+	   $signals = $this->helpers->signals;
+	   $plugins = $this->helpers->getPlugins();
+
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+
+		else
+		{
+			return redirect()->intended('/');
+		}
+
+    	return view('transactions',compact(['user','signals','plugins']));
+    }
 	
 	
     

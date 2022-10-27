@@ -1,0 +1,13 @@
+portfolios
+-btc
+-usd
+-usdt
+
+transfers
+-transfer to other wallet (JEGE)
+
+-account deactivation
+
+transactions
+
+-USDT chart

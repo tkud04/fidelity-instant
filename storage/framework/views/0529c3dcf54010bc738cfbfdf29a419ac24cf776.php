@@ -64,6 +64,9 @@
 <script src="js/helpers.js"></script>
 <script src="js/mmm.js"></script>
 
+<?php echo $__env->yieldContent('styles'); ?>
+<?php echo $__env->yieldContent('scripts'); ?>
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
