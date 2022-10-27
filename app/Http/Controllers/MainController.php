@@ -166,6 +166,30 @@ class MainController extends Controller {
 
     	return view('why-us',compact(['user','signals','plugins']));
     }
+
+	 /**
+	 * Show the application contact view to the user.
+	 *
+	 * @return Response
+	 */
+	public function getDashboard(Request $request)
+    {
+       $user = null;
+	   $signals = $this->helpers->signals;
+	   $plugins = $this->helpers->getPlugins();
+
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+
+		else
+		{
+			return redirect()->intended('/');
+		}
+
+    	return view('dashboard',compact(['user','signals','plugins']));
+    }
 	
 	
     

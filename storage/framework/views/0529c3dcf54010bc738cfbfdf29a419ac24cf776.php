@@ -84,8 +84,11 @@
     </div>
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div>
+  <?php
+   $signup = isset($xx) ? $xx : false;
+  ?>
+  <?php echo $__env->make('header',['user' => $user,'signup' => $signup], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
   
-  <?php echo $__env->make('header',['user' => $user,'signup' => $xx], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
    <!--------- Session notifications-------------->
    <?php

@@ -7,7 +7,7 @@ $void = 'javascript:void(0)';
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
-            <img class="mt-5 mb-20" alt="" src="images/logo-white-footer.png">
+          <h4 class="widget-title">Fidelity Instant</h4>
             <p>Los Angeles, CA</p>
             <ul class="list-inline mt-5">
               <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">123-456-789</a> </li>

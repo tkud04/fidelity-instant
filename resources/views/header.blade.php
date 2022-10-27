@@ -34,7 +34,7 @@ $void = 'javascript:void(0)'
                 </li>
                 @endif
                 @else
-                <li class="m-0 pl-10"> <a href="#" class="text-white ypp"><i class="fa fa-dashboard mr-5 text-theme-colored2"></i> Dashboard</a> </li>
+                <li class="m-0 pl-10"> <a href="{{url('dashboard')}}" class="text-white"><i class="fa fa-dashboard mr-5 text-theme-colored2"></i> Dashboard</a> </li>
                 @endif
               </ul>
             </div>

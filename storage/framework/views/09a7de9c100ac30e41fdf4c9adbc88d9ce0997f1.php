@@ -4,13 +4,13 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title">{{$title}}</h2>
+              <h2 class="title"><?php echo e($title); ?></h2>
               <ol class="breadcrumb text-center text-black mt-10">
-                <li><a href="{{url('/')}}">Home</a></li>
-                <li class="active text-theme-colored">{{$title}}</li>
+                <li><a href="<?php echo e(url('/')); ?>">Home</a></li>
+                <li class="active text-theme-colored"><?php echo e($title); ?></li>
               </ol>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section><?php /**PATH /Users/mac/repos/fidelity-instant/resources/views/banner-2.blade.php ENDPATH**/ ?>

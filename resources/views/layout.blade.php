@@ -84,8 +84,11 @@
     </div>
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div>
+  <?php
+   $signup = isset($xx) ? $xx : false;
+  ?>
+  @include('header',['user' => $user,'signup' => $signup])
   
-  @include('header',['user' => $user,'signup' => $xx])
 
    <!--------- Session notifications-------------->
    <?php
