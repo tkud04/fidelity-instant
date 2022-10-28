@@ -44,10 +44,19 @@ $title = 'Portfolios';
                 <div class="row">
                   <div class="row" style="margin-left: 10px;">
                     <div class="col-md-6">
-                      Line Chart
+                      Asset Stats
                       <div style="width: 90%" class="text-center">
                         <canvas id="btc-line-chart" height="200" width="200"></canvas>
                       </div>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="thumbnail">
+                      <div class="caption">
+                       <h3>Thumbnail label</h3>
+                       <p>..........</p>
+                       <p><a href="#" class="btn btn-dark btn-flat" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                      </div>
+                   </div>
                     </div>
                   </div>
                 </div>
